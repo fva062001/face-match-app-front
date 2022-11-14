@@ -1,0 +1,71 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.imgHacker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+.infoContainer {
+  text-align: center;
+  color: #00ff04;
+  margin-bottom: 3em;
+}
+
+.buttonContainer {
+  width: fit-content;
+}
+
+.button {
+  background-color: transparent;
+  color: #00ff04;
+  border: #00ff04 solid 2px;
+  padding: 15px 20px;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #00ff04;
+  color: #000;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #00ff04;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ff04;
+  }
+}

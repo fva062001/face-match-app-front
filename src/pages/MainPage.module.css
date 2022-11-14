@@ -1,0 +1,102 @@
+.main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #00ff04;
+}
+
+.button1{
+  margin-bottom: 1em;
+  width: 10em;
+  height: fit-content;
+  background-color: transparent;
+  color: #00ff04;
+  border: #00ff04 solid 2px;
+  padding: 15px 20px;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.button1:hover {
+  background-color: #00ff04;
+  color: #000;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 8em;
+    height: fit-content;
+    background-color: transparent;
+    color: #00ff04;
+    border: #00ff04 solid 2px;
+    padding: 15px 20px;
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #00ff04;
+    color: #000;
+  }
+
+
+.photoFrame{
+    border:3px solid #00ff04;
+    width: 20vw;
+    height: 50vh;
+    margin: 0 4em;
+    text-align: center;
+    position: relative;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+}
+
+.typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid #00ff04;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #00ff04;
+    }
+  }
+  

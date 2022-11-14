@@ -7,7 +7,13 @@
   justify-content: center;
   flex-direction: column;
   background-color: black;
+  
 }
+
+.frame{
+  border: #00ff04 solid 2px;
+  position: relative;
+  padding: 8em 10em;}
 
 .imgHacker {
   display: block;
@@ -23,7 +29,8 @@
 }
 
 .buttonContainer {
-  width: fit-content;
+  width: 100%;
+  text-align: center;
 }
 
 .button {
